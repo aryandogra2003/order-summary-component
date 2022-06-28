@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url('images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: hsl(225, 100%, 94%);
+
+}
+.box{
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: white;
+    width: 310px;
+    height: 482px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 12%;
+    left: 39%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 4px 16px 23px hsl(220deg 66% 76%);
+}
+
+h2{
+    font-family: 'Red Hat Display', sans-serif;
+    color:hsl(223, 47%, 23%);
+    padding-bottom: 10px;
+}
+p{
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+}
+.hero img{
+    width: 310px;
+    border-radius: 10px 10px 0px 0px;
+}
+.plan{
+    display: flex;
+    border-radius: 10px;
+    background-color: hsl(225, 100%, 98%);
+    padding: 10px;
+    width: 237px;
+}
+.annual-plan{
+    padding-right: 40px;
+    font-weight: bold;
+    color: hsl(223, 47%, 23%);
+}
+.plan img{
+    float:left ;
+    display:block;
+    margin: 0px 6px;
+    width: 37px;
+}    
+.change{
+    text-decoration: underline;
+    font-size: 14px;
+    padding-top: 9px;
+    color:  hsl(245, 75%, 52%);
+}
+.change:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: hsl(245, 52%, 51%);
+}
+.btn{
+    font-family: 'Red Hat Display', sans-serif;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 4px 16px 7px  hsl(225, 100%, 94%);
+    padding: 10px;
+    width: 254px;
+}
+.btn:hover{
+    background-color: hsl(245, 65%, 69%) ;
+    cursor: pointer;
+}
+.order{
+    font-weight: bold;
+}
+.order:hover{
+    color: black;
+    cursor: pointer;
+}
+@media  screen and (min-width:615px) and (max-width:840px) {
+    .box{
+      left: 29%;
+    }
+  }
+  @media  screen and (min-width:500px) and (max-width:615px) {
+    .box{
+      left: 20%;
+    }
+  }
+  @media  screen and (min-width:400px) and (max-width:500px) {
+    .box{
+      left: 12%;
+    }
+  }
+  @media  screen and (min-width:360px) and (max-width:400px) {
+    .box{
+      left: 8%;
+    }
+  }
+  @media  screen and (min-width:300px) and (max-width:360px) {
+    .box{
+      left: 4%;
+    }
+  }
